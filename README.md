@@ -12,8 +12,9 @@ My Idol:
 - **[TeamUltroid](https://github.com/TeamUltroid/Ultroid)**
 - **[Gabriel Maialva](https://github.com/gabrielmaialva33)**
 
-<h2>💻 Changelogs</h2>
-- 0.1.0: Initial release
+<h2>Star History</h2>
+
+![Star History](https://api.star-history.com/svg?repos=Mister-Man7%2Fekstra-plugin&theme=dark)
 
 <h2>Contributors</h2>
 <a href="https://github.com/Mister-Man7/ekstra-plugin/graphs/contributors">
