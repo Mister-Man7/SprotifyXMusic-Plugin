@@ -1,6 +1,6 @@
 <h1 align="center" id="title">SprotifyXMusic-Plugin</h1>
 
-<p align="center"><img src="https://socialify.git.ci/Mister-Man7/ekstra-plugin/image?description=1&amp;font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/Mister-Man7/SprotifyXMusic-Plugin/image?description=1&amp;font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 This project just for **[SprotifyXMusic](https://github.com/Mister-Man7/SprotifyXMusic)**.
 
@@ -14,9 +14,9 @@ My Idol:
 
 <h2>Star History</h2>
 
-![Star History](https://api.star-history.com/svg?repos=Mister-Man7%2Fekstra-plugin&theme=dark)
+![Star History](https://api.star-history.com/svg?repos=Mister-Man7%2FSprotifyXMusic-Plugin&theme=dark)
 
 <h2>Contributors</h2>
-<a href="https://github.com/Mister-Man7/ekstra-plugin/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mister-Man7/ekstra-plugin" />
+<a href="https://github.com/Mister-Man7/SprotifyXMusic-Plugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mister-Man7/SprotifyXMusic-Plugin" />
 </a>
