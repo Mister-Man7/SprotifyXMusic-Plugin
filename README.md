@@ -1,10 +1,5 @@
 <div align="center">
-  <strong>SprotifyXMusic
-  </strong>
-</div>
-
-<br/>
-<br/>
+  <strong><br>SprotifyXMusic</strong></div><br/>
 
 ## **Ekstra-Plugins**
 This project just for **[SprotifyXMusic](https://github.com/Mister-Man7/SprotifyXMusic)**.
