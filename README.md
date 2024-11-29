@@ -1,6 +1,6 @@
 <div align="center">
   <strong><br>SprotifyXMusic</strong></div><br/>
-<div align="center"><strong>Smooth Telegram Music Player</strong><br>
+<div align="center">Smooth Telegram Music Player<br>
 <br />
 <br />
 
