@@ -1,4 +1,8 @@
-<div align="center">#SprotifyXMusic</div>
+<div align="center">
+  <strong>SprotifyXMusic
+  </strong>strong>
+</div>
+
 <br/>
 <br/>
 
