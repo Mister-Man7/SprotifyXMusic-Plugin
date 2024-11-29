@@ -12,8 +12,7 @@ My Idol:
 - **[TeamUltroid](https://github.com/TeamUltroid/Ultroid)**
 - **[Gabriel Maialva](https://github.com/gabrielmaialva33)**
 
-<h2>Star History</h2>
-
+## Star History
 ![Star History](https://api.star-history.com/svg?repos=Mister-Man7%2FSprotifyXMusic-Plugin&theme=dark)
 
 <h2>Contributors</h2>
