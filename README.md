@@ -1,9 +1,5 @@
 <div align="center">
   <strong><br>SprotifyXMusic</strong></div><br/>
-<div align="center">Smooth Telegram Music Player<br>
-<br />
-<br />
-
 
 ## **Ekstra-Plugins**
 This project just for **[SprotifyXMusic](https://github.com/Mister-Man7/SprotifyXMusic)**.
