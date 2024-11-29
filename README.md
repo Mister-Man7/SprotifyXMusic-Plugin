@@ -13,4 +13,10 @@ My Idol:
 - **[Gabriel Maialva](https://github.com/gabrielmaialva33)**
 
 <h2>💻 Changelogs</h2>
-- **0.1.0:** Initial release
+- 0.1.0: Initial release
+
+<a href="https://github.com/Mister-Man7/ekstra-plugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mister-Man7/ekstra-plugin" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
