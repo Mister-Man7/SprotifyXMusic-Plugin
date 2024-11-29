@@ -2,7 +2,6 @@
 
 ## **Ekstra-Plugins**
 This project just for **[SprotifyXMusic](https://github.com/Mister-Man7/SprotifyXMusic)**.
-)**
 
 ## **Acknowledgement**
 
