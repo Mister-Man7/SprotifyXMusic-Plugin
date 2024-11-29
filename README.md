@@ -1,6 +1,6 @@
 <div align="center">
   <strong>SprotifyXMusic
-  </strong>strong>
+  </strong>
 </div>
 
 <br/>
