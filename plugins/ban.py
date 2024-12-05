@@ -3,16 +3,16 @@ from contextlib import suppress
 from string import ascii_lowercase
 from typing import Dict, Union
 
-from SprotifyXMusic import app
-from SprotifyXMusic.core.mongo import mongodb
-from SprotifyXMusic.misc import SUDOERS
-from SprotifyXMusic.utils.database import save_filter
-from SprotifyXMusic.utils.functions import (
+from SprotifyMusic import app
+from SprotifyMusic.core.mongo import mongodb
+from SprotifyMusic.misc import SUDOERS
+from SprotifyMusic.utils.database import save_filter
+from SprotifyMusic.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,
 )
-from SprotifyXMusic.utils.keyboard import ikb
+from SprotifyMusic.utils.keyboard import ikb
 from config import BANNED_USERS
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
@@ -30,49 +30,49 @@ from utils.permissions import admins_only, member_permissions
 
 warnsdb = mongodb.warns
 
-__MODULE__ = "🚫 𝗕𝗮𝗻"
+__MODULE__ = "🚫 Ban"
 __HELP__ = """
-**Comandos de Moderação:**
+**Commands:**
 
-- /ban - 🚷 **Banir um usuário**
-- /sban - 🧹 **Apagar todas as mensagens de um usuário e bani-lo**
-- /tban - ⏰ **Banir um usuário por tempo específico**
-- /unban - 🔓 **Desbanir um usuário**
+- /ban - 🚷 **Banish a user**
+- /sban - 🧹 **Delete all messages from a user and ban it**
+- /tban - ⏰ **Ban a user for a specific time**
+- /unban - 🔓 **Unban user**
 
-**Avisos e Advertências:**
-- /warn - ⚠️ **Advertir um usuário**
-- /swarn - 🧹 **Apagar todas as mensagens do usuário e adverti-lo**
-- /rmwarns - 🗑️ **Remover todas as advertências de um usuário**
-- /warns - 📋 **Mostrar advertências de um usuário**
+**Warns:**
+- /warn - ⚠️ **Warn a user**
+- /swarn - 🧹 **Delete all user messages and warn you**
+- /rmwarns - 🗑️ **Remove all warnings from a user**
+- /warns - 📋 **Show a user's warnings**
 
-**Ações de Remoção:**
-- /kick - 🚪 **Expulsar um usuário**
-- /skick - 🧹 **Apagar a mensagem e expulsar o usuário**
+**Removal actions:**
+- /kick - 🚪 **Kick a user**
+- /skick - 🧹 **Delete the message and expel the user**
 
-**Limpeza e Mensagens:**
-- /purge - 🧽 **Limpar mensagens**
-- /purge [n] - 🔢 **Limpar "n" mensagens a partir da mensagem respondida**
-- /del - 🗑️ **Apagar mensagem respondida**
+**Cleaning and Messages:**
+- /purge - 🧽 **To clean messages**
+- /purge [n] - 🔢 **To clean "n" messages from the message replied**
+- /del - 🗑️ **Delete message answered**
 
-**Gerenciamento de Permissões:**
-- /promote - 🏆 **Promover um membro**
-- /fullpromote - 🏅 **Promover um membro com todos os direitos**
-- /demote - ⚙️ **Rebaixar um membro**
+**Permissions Management:**
+- /promote - 🏆 **Promote a member**
+- /fullpromote - 🏅 **Promote a member with all rights**
+- /demote - ⚙️ **Demote a user**
 
-**Fixação de Mensagens:**
-- /pin - 📌 **Fixar uma mensagem**
-- /unpin - 📍 **Desfixar uma mensagem**
-- /unpinall - 📍🗑️ **Desfixar todas as mensagens**
+**Message Pin:**
+- /pin - 📌 **Pin a message**
+- /unpin - 📍 **Unpin a message**
+- /unpinall - 📍🗑️ **Unpin all messages**
 
-**Silenciar e Restaurar Voz:**
-- /mute - 🔇 **Silenciar um usuário**
-- /tmute - ⏰🔇 **Silenciar um usuário por tempo específico**
-- /unmute - 🔊 **Restaurar o som de um usuário**
+**Silence and restore voice:**
+- /mute - 🔇 **Silence a user**
+- /tmute - ⏰🔇 **Silence a user for a specific time**
+- /unmute - 🔊 **Restore a user's sound**
 
-**Outros Comandos:**
-- /zombies - 👻 **Banir contas excluídas**
-- /report | @admins | @admin - 📢 **Reportar uma mensagem aos administradores**
-- /link - 🔗 **Enviar o link de convite do grupo/supergrupo**
+**Other commands:**
+- /zombies - 👻 **Banning excluded accounts**
+- /report | @admins | @admin - 📢 **Report a message to administrators**
+- /link - 🔗 **Send the Group/Supergroup invitation link**
 """
 
 
